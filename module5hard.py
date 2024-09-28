@@ -73,9 +73,9 @@ class UrTube:
                 while video.time_now < video.duration:
                     print(video.time_now + 1)
                     video.time_now += 1
-                    time.sleep(1)  # замедляем вывод
+                    time.sleep(1) 
                 print("Конец видео")
-                video.time_now = 0  # сбрасываем текущее время просмотренного видео
+                video.time_now = 0  
                 return
 
         print("Видео не найдено")
